@@ -35,7 +35,7 @@ def process_text(text):
 
 def calculate_title_to_json_map(input_path):
     title_to_json_map = {}
-    from utils.wiki_processor import WikiDataProcessor
+    from feverous.utils.wiki_processor import WikiDataProcessor
     wiki_processor = WikiDataProcessor(os.path.join(input_path))
     for page in wiki_processor:
         # if page.title.name in title_to_json_map:
