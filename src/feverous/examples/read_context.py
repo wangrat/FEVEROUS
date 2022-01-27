@@ -1,5 +1,5 @@
-from database.feverous_db import FeverousDB
-from utils.wiki_page import WikiPage,get_wikipage_by_id
+from feverous.database.feverous_db import FeverousDB
+from feverous.utils.wiki_page import WikiPage,get_wikipage_by_id
 import argparse
 
 if __name__ == "__main__":
