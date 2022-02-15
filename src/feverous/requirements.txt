@@ -7,4 +7,4 @@ pexpect==4.8.0
 spacy>=2.3.2
 sklearn
 jsonlines==2.0.0
-tqdm==4.46.0
+tqdm>=4.61.2
